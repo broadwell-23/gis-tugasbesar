@@ -12,7 +12,21 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('web');
+});
+
+Route::get('/admin', function () {
+		if(Auth::check()){
+			return redirect('/admin-dashboard');
+		} else {
+    	return view('auth.login');
+    }
+});
+
+// buat logout
+Route::get('logout', function() {
+	Auth::logout();
+	return view('auth.login');
 });
 
 Auth::routes();
