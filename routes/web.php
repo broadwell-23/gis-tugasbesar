@@ -32,3 +32,6 @@ Route::get('logout', function() {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+
+// ADMIN PANEL
+Route::get('/admin-dashboard', 'DashboardController@index');

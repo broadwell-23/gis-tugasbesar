@@ -9,9 +9,9 @@
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Effacy is a bootstrap3 based creative one page HTML5 Template.">
-        <meta name="keywords" content="creative, html5, portfolio, parallax, personal, responsive">
-        <meta name="author" content="themebite.com">
+        <meta name="description" content="WoFi is apps that could find place which has wifi.">
+        <meta name="keywords" content="wofi, web, gis, sig, information, wifi, location, @wifi.id">
+        <meta name="author" content="farizky.xyz">
 
 
         <!-- Essential CSS Files -->
@@ -90,10 +90,12 @@
         <div id="particles-js"></div>
         <div class="slider-caption">
             <div class="container">
-                <div class="row">
+                <div class="row contact-form-section mt-50">
                     <h1>wo<span>fi</span></h1>
                     <h5>wifi finder</h5>
-                    <h5><button class="btn btn-success">GO TO MAPS</button></h5>
+                    <div class="portfolio-button text-center mt-50">
+                        <button class="btn btn-primary portfolio-btn" href="">Go To Maps</button>
+                    </div>
                 </div>
             </div>
         </div>
