@@ -70,6 +70,7 @@
           
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a class="page-scroll" href="#top">Home</a></li>
+                    <li><a class="page-scroll" href="map">Map</a></li>
                     <li><a class="page-scroll" href="#about">About</a></li>
                     <li><a class="page-scroll" href="#testimonial">Testimonial</a></li>
                     <li><a class="page-scroll" href="#portfolio">Portfolio</a></li>
@@ -94,7 +95,7 @@
                     <h1>wo<span>fi</span></h1>
                     <h5>wifi finder</h5>
                     <div class="portfolio-button text-center mt-50">
-                        <button class="btn btn-primary portfolio-btn" href="">Go To Maps</button>
+                        <a href="map"><button class="btn btn-primary portfolio-btn">Go To Maps</button></a>
                     </div>
                 </div>
             </div>

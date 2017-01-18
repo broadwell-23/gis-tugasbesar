@@ -15,14 +15,6 @@ Route::get('/', function () {
     return view('web');
 });
 
-Route::get('/admin', function () {
-		if(Auth::check()){
-			return redirect('/admin-dashboard');
-		} else {
-    	return view('auth.login');
-    }
-});
-
 // buat logout
 Route::get('logout', function() {
 	Auth::logout();
@@ -31,7 +23,8 @@ Route::get('logout', function() {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index');
+// MAPS
+Route::get('/map', 'MapController@index');
 
 // ADMIN PANEL
-Route::get('/admin-dashboard', 'DashboardController@index');
+Route::get('/admin', 'DashboardController@index');
