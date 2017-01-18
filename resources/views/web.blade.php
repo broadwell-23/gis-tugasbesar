@@ -309,15 +309,15 @@
                 <div class="col-md-12 text-center">
                     <!-- Footer Copy Right Text -->
                     <div class="copyright-info">
-                        <a href="http://themebite.com"><span><i class="fa fa-code"></i></span> with <span><i class="fa fa-heart"></i></span> By <span>ThemeBite</span></a>
+                        <a href="http://themebite.com"><span><i class="fa fa-code"></i></span> with <span><i class="fa fa-coffee"></i></span> By <span>WOFI</span></a>
                     </div>
 
                     <!-- Footer Social Icons -->
                     <div class="social-icons mt-30">
-                        <a href="https://www.facebook.com/themebite/"><i class="fa fa-facebook"></i></a>
-                        <a href="https://twitter.com/themebite/"><i class="fa fa-twitter"></i></a>
-                        <a href="https://plus.google.com/themebite/"><i class="fa fa-google-plus"></i></a>
-                        <a href="https://github.com/themebite/"><i class="fa fa-github"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                        <a href="#"><i class="fa fa-github"></i></a>
                     </div>
                 </div>
             </div>

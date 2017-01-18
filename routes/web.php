@@ -28,3 +28,8 @@ Route::get('/map', 'MapController@index');
 
 // ADMIN PANEL
 Route::get('/admin', 'DashboardController@index');
+
+Route::get('/spot', 'SpotController@index');
+Route::post('/spot', 'SpotController@store');
+Route::put('/spot', 'SpotController@update');
+Route::delete('/spot', 'SpotController@destroy');

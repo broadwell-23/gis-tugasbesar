@@ -84,7 +84,7 @@
         margin-left: 10px;
       }
       .logo{
-        margin-left: 1115px;
+        margin-left: 1120px;
         margin-top: -32px; 
         position: fixed; 
         z-index: 5;
@@ -174,30 +174,11 @@
     function initialize() {
       // Baris berikut digunakan untuk mengisi marker atau tanda titik di peta  
       var sites = [  
-     
-      ['Informatika', -0.05501,109.34868 ,1, '<h4>GEDUNG INFORMATIKA</h4><p>Program Studi Teknik Informatika</p>'], 
-      ['Untan', -0.06034,109.34523 ,2, '<h4>Universitas TANJUNGPURA</h4><p>Jl. Prof. Dr. H. Hadari Nawawi <br>Pontianak</p>'], 
-      ['KDigulis', -0.054715, 109.349376 ,3, '<h4>Kantin Digulis</h4><p>Pontianak</p>'],
-      ['Kurame', -0.052383, 109.337262 ,4, '<h4>Warung Kurame</h4><p>Pontianak</p>'],
-      ['Rayna', -0.049939, 109.336622 ,5, '<h4>Rumah Makan Rayna</h4><p>Pontianak</p>'],
-      ['Disini', -0.041483, 109.338915 ,6, '<h4>Cafe DISINI</h4><p>Pontianak</p>'],
-      ['Tapaz', -0.040376, 109.340680 ,7, '<h4>The Tapaz</h4><p>Pontianak</p>'],
-      ['Hawaii', -0.039053, 109.341394 ,8, '<h4>Restoran New Hawaii</h4><p>Pontianak</p>'],
-      ['KfcAyani', -0.039360, 109.336221 ,9, '<h4>KFC Ayani</h4><p>Pontianak</p>'],
-      ['Citarasa', -0.036145, 109.332169 ,10, '<h4>RM Cita Rasa</h4><p>Pontianak</p>'],
-      ['AyamPakUsu', -0.029234, 109.334215 ,11, '<h4>Ayam Pak Usu</h4><p>Pontianak</p>'],
-      ['AyamDadakan', -0.036663, 109.325777 ,12, '<h4>Ayam Dadakan</h4><p>Pontianak</p>'],
-      ['SateAyamMbaSri', -0.031656, 109.322640 ,13, '<h4>Sate Ayam Mba Sri</h4><p>Pontianak</p>'],
-      ['Thetha', -0.023954, 109.329516 ,14, '<h4>Cafe The Tha</h4><p>Pontianak</p>'],
-      ['Saungliwet', -0.034970, 109.319930 ,15, '<h4>Saung Liwet</h4><p>Pontianak</p>'],
-      ['AyamKremesBuRos', -0.041088, 109.313918 ,16, '<h4>Ayam Kremes Bu Ros</h4><p>Pontianak</p>'],
-      ['DBamboo', -0.020477, 109.328948 ,17, '<h4>D Bamboo</h4><p>Pontianak</p>'],
-      ['RestoAyamJawi', -0.019929, 109.321258 ,18, '<h4>Resto Ayam Jawi</h4><p>Pontianak</p>'],
-      ['NasiGoreng68', -0.055383, 109.326680 ,19, '<h4>Nasi Goreng 68</h4><p>Pontianak</p>'],
-      ['CapCai89', -0.022406, 109.329387 ,20, '<h4>Cap Cai 89</h4><p>Pontianak</p>'],
-      ['Yusra', -0.054730, 109.350459 ,21, '<h4>Yusra</h4><p>Pontianak</p>'],
-      ['AyaniSuki', -0.062210, 109.355486 ,22, '<h4>Ayani Suki</h4><p>Pontianak</p>'],
-      ['PulauSeafood', -0.033135, 109.337063 ,23, '<h4>Pulau Seafood</h4><p>Pontianak</p>'], ];
+      
+      @foreach($spots as $no => $spot)
+      ['{{ $spot->nama_cafe }}', {{ $spot->titik }} , {{ $no+1 }}, '<h4>{{ $spot->nama_cafe }}</h4><p>{{ $spot->alamat }}</p><p>{{ $spot->no_hp }}</p><p>Virtual Tour : <a target="_blank" href="{{ $spot->virtual_tour }}">{{ $spot->virtual_tour }}</a></p>'], 
+      @endforeach
+      ];
     
       //KETERANGAN ISI sites
       //pertama merupakan judul marker, 
@@ -233,9 +214,11 @@
     function setMarkers(map, markers) {  
     //berikut merupakan perulangan untuk membaca masing masing titik yang telah kita definisikan di sites[];  
       for (var i = 0; i < markers.length; i++) {  
+      var iconBase = 'img/';
       var sites = markers[i];  
       var siteLatLng = new google.maps.LatLng(sites[1], sites[2]);  
-      var marker = new google.maps.Marker({  
+      var marker = new google.maps.Marker({ 
+        icon: iconBase + 'spot.png', 
         position: siteLatLng,  
         map: map,  
         title: sites[0],  
@@ -312,12 +295,8 @@
               <div class="checkbox">
                 <label><input id="layer_03" onclick="toggleLayers(2)" type="checkbox"/>Jaringan Sungai</label>
               </div>
-            </div>
-
-          <button class="accordion"><i class="fa fa-map-marker"></i> &nbsp;Peta Wifi</button>
-            <div class="panel" style="overflow: auto;">
               <div class="checkbox">
-                <label><input id="layer_04" onclick="toggleLayers(3)" type="checkbox"/>Nama Cafe</label>
+                <label><input id="layer_04" onclick="toggleLayers(3)" type="checkbox"/>Titik Wifi</label>
               </div>
             </div>
 
