@@ -78,7 +78,7 @@ a:hover {
 .navbar a,
 .form-control {
     -webkit-transition: all 0.2s ease;
-    transition: all 0.2s ease; 
+    transition: all 0.2s ease;
 }
 
 a,
@@ -539,7 +539,7 @@ ul {
     width: 50px;
     height: 50px;
 }
-#main-slide .carousel-control .fa-angle-left, 
+#main-slide .carousel-control .fa-angle-left,
 #main-slide .carousel-control .fa-angle-right{
     position: absolute;
     z-index: 5;
@@ -747,6 +747,7 @@ ul {
 .single-service .media .media-body > p {
     font-size: 14px;
     line-height: 24px;
+    font-family: 'helvetica' ;
 }
 .single-service .media:hover {
     border: 2px solid transparent;
@@ -830,7 +831,7 @@ ul {
 #testimonial-carousel .owl-controls {
     bottom: -50px;
     position: absolute;
-    right: 22%;    
+    right: 22%;
 }
 #testimonial-carousel .owl-controls .owl-buttons .owl-prev, #testimonial-carousel .owl-controls .owl-buttons .owl-next {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
@@ -1249,7 +1250,7 @@ box-shadow: inset 0px 2px 25px -8px rgba(0,0,0,0.76);
 .goolge-map-section .toggle-map-button button.gmap-btn .fa {
     padding-left: 10px;
  }
-#gmap-wrapper { 
+#gmap-wrapper {
     height: 350px;
 }
 
