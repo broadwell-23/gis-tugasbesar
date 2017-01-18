@@ -23,14 +23,14 @@
         <link rel="stylesheet" href="css/owl.carousel.css">
         <link rel="stylesheet" href="css/owl.theme.css">
         <link rel="stylesheet" href="css/style.css">
-        
+
         <!-- Color Styles -->
         <link rel="stylesheet" href="css/colors/color-blue.css">
         <link rel="stylesheet" href="css/colors/color-aqua.css">
         <link rel="stylesheet" href="css/colors/color-purple.css">
         <link rel="stylesheet" href="css/colors/default-color.css">
         <link rel="stylesheet" href="css/colors/color-green.css">
-        
+
         <!-- Responsive CSS -->
         <link rel="stylesheet" href="css/responsive.css">
 
@@ -55,7 +55,7 @@
     <header class="header-area">
         <!-- Navigation start -->
         <nav class="navbar navbar-custom tb-nav" role="navigation">
-            <div class="container">        
+            <div class="container">
               <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#tb-nav-collapse">
                   <span class="sr-only">Toggle navigation</span>
@@ -65,9 +65,9 @@
                 </button>
                 <a class="navbar-brand logo" href="#"><h2>wo<span>fi</span></h2></a>
               </div>
-          
+
               <div class="collapse navbar-collapse" id="tb-nav-collapse">
-          
+
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a class="page-scroll" href="#top">Home</a></li>
                     <li><a class="page-scroll" href="map">Map</a></li>
@@ -106,7 +106,7 @@
 
 
     <!-- About Us Section -->
-        
+
     <section class="about-us" id="about">
         <div class="container-fluid">
             <div class="row">
@@ -158,12 +158,12 @@
 
     <!-- End Of About Us Section -->
 
-        
+
     <!-- Our Services -->
 
     <section class="our-services-section section-padding" id="service">
         <div class="container">
-            <h2 class="section-title text-center">What we do</h2>
+            <h2 class="section-title text-center">OUR TEAM</h2>
             <p class="sub-title text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, magna aliqua.Ut enim <br> consectetur adipisicing  ad minim veniam</p>
 
             <div class="row our-services">
@@ -172,11 +172,11 @@
                 <div class="col-md-6 col-lg-5 col-sm-12 col-lg-offset-1 col-xs-12 single-service">
                     <div class="media">
                         <div class="media-left">
-                            <i class="fa fa-laptop"></i>
+                            <img src="img/profile-avatar.jpg" alt="">
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading">Ux/Ui Design</h3>
-                            <p>Lorem ipsum dolor sit amet, tetur adipisicing elit. Ut enim ad minim tae vitae dicta sunt explicabo.</p>
+                            <h3 class="media-heading">Dio</h3>
+                            <p>D1041131014</p>
                         </div>
                     </div>
                 </div>
@@ -185,11 +185,11 @@
                 <div class="col-md-6 col-lg-5 col-sm-12 col-xs-12 single-service">
                     <div class="media">
                         <div class="media-left">
-                            <i class="fa fa-modx"></i>
+                            <img src="img/profile-avatar.jpg" alt="">
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading">Creative Layout</h3>
-                            <p>Lorem ipsum dolor sit amet, tetur adipisicing elit. Ut enim ad minim tae vitae dicta sunt explicabo.</p>
+                            <h3 class="media-heading">Abdussalam Wahid</h3>
+                            <p>D1041131022</p>
                         </div>
                     </div>
                 </div>
@@ -198,11 +198,11 @@
                 <div class="col-md-6 col-lg-5 col-sm-12 col-xs-12 col-lg-offset-1 single-service">
                     <div class="media">
                         <div class="media-left">
-                            <i class="fa fa-binoculars"></i>
+                            <img src="img/profile-avatar.jpg" alt="">
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading">Retina Ready</h3>
-                            <p>Lorem ipsum dolor sit amet, tetur adipisicing elit. Ut enim ad minim tae vitae dicta sunt explicabo.</p>
+                            <h3 class="media-heading">Muhammad Farizky Luthfie</h3>
+                            <p>D1041131060</p>
                         </div>
                     </div>
                 </div>
@@ -211,11 +211,11 @@
                 <div class="col-md-6 col-lg-5 col-sm-12 col-xs-12 single-service">
                     <div class="media">
                         <div class="media-left">
-                            <i class="fa fa-code"></i>
+                            <img src="img/profile-avatar.jpg" alt="">
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading">Valid Markup</h3>
-                            <p>Lorem ipsum dolor sit amet, tetur adipisicing elit. Ut enim ad minim tae vitae dicta sunt explicabo.</p>
+                            <h3 class="media-heading">Hilarius Guruh Gian Pratama</h3>
+                            <p>D1041131076</p>
                         </div>
                     </div>
                 </div>
@@ -254,7 +254,7 @@
                             </figure>
                         </div>
                     </div>
-                    
+
                     <!-- Carousel Item -->
                     <div class="item">
                         <!-- Testimonial Body -->
@@ -456,7 +456,7 @@
                                 </span>
                             </a>
                         </div>
-                        
+
 
                     </div>
                 </div>
@@ -465,9 +465,9 @@
                 <div class="portfolio-button text-center mt-50">
                     <button class="btn btn-primary portfolio-btn">Load More</button>
                 </div>
-                    
 
-                
+
+
             </div>
         </div>
     </section>
@@ -485,23 +485,23 @@
                     <div class="item">
                         <img class="img-responsive center-block" src="img/partners/partner-1.png" alt="Effacy partner">
                     </div>
-                    
+
                     <div class="item">
                         <img class="img-responsive center-block" src="img/partners/partner-2.png" alt="Effacy partner">
                     </div>
-                    
+
                     <div class="item">
                         <img class="img-responsive center-block" src="img/partners/partner-3.png" alt="Effacy partner">
                     </div>
-                    
+
                     <div class="item">
                         <img class="img-responsive center-block" src="img/partners/partner-4.png" alt="Effacy partner">
                     </div>
-                    
+
                     <div class="item">
                         <img class="img-responsive center-block" src="img/partners/partner-5.png" alt="Effacy partner">
                     </div>
-                    
+
                     <div class="item">
                         <img class="img-responsive center-block" src="img/partners/partner-1.png" alt="Effacy partner">
                     </div>
@@ -509,15 +509,15 @@
                     <div class="item">
                         <img class="img-responsive center-block" src="img/partners/partner-2.png" alt="Effacy partner">
                     </div>
-                    
+
                     <div class="item">
                         <img class="img-responsive center-block" src="img/partners/partner-3.png" alt="Effacy partner">
                     </div>
-                    
+
                     <div class="item">
                         <img class="img-responsive center-block" src="img/partners/partner-4.png" alt="Effacy partner">
                     </div>
-                    
+
                     <div class="item">
                         <img class="img-responsive center-block" src="img/partners/partner-5.png" alt="Effacy partner">
                     </div>
@@ -665,7 +665,7 @@
 
     <!-- End Of Awards Section -->
 
-        
+
 
     <!-- End Of Our Partners Section -->
 
@@ -678,7 +678,7 @@
             <div class="row mt-80 blog-section-padding">
                 <!-- Blog Post Carousel -->
                 <div id="blog-post-carousel" class="owl-carousel owl-theme">
-                    
+
                     <!-- Single BLog Post 1 -->
                     <div class="item">
                         <article class="single-blog-post">
@@ -842,14 +842,14 @@
 
     <!-- End Of Contact Us Section -->
 
-    
+
 
     <!-- Google Map Section -->
 
     <section class="goolge-map-section">
          <!-- Toggle Button Area -->
         <div class="toggle-map-button">
-            <button id="mapToggle" class="gmap-btn btn-block">Locate on google map<i class="fa fa-chevron-down"></i></button>                
+            <button id="mapToggle" class="gmap-btn btn-block">Locate on google map<i class="fa fa-chevron-down"></i></button>
         </div>
         <!-- Google Map -->
         <div class="google-map-container">
