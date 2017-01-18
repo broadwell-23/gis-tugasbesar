@@ -155,6 +155,15 @@
 
     <!-- End Of About Us Section -->
 
+    <section class="our-partners-section section-padding">
+        <div class="container">
+          <!-- Contact Us Section Title -->
+          <h2 class="section-title contact-title text-center">Data Wifi</h2>
+
+        </div>
+    </section>
+
+    <!-- End Of Awards Section -->
 
     <!-- Our Services -->
 
