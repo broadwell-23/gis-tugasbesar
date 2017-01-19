@@ -72,6 +72,7 @@
                     <li class="active"><a class="page-scroll" href="#top">Home</a></li>
                     <li><a class="page-scroll" href="map">Map</a></li>
                     <li><a class="page-scroll" href="#about">About</a></li>
+                    <li><a class="page-scroll" href="#data">Data</a></li>
                     <li><a class="page-scroll" href="#team">Team</a></li>
                     <li><a class="page-scroll" href="#contact">Contact Us</a></li>
                 </ul>
@@ -155,11 +156,44 @@
 
     <!-- End Of About Us Section -->
 
-    <section class="our-partners-section section-padding">
+    <section class="our-partners-section section-padding" id="data">
         <div class="container">
           <!-- Contact Us Section Title -->
           <h2 class="section-title contact-title text-center">Data Wifi</h2>
 
+          <div class="row">
+              <div class="col-lg-12">
+                  <section class="panel">
+                      <div class="panel-body">
+                        <div class="adv-table">
+                          <table class="display table table-bordered table-striped" id="example">
+                              <thead>
+                              <tr>
+                                  <th>No</th>
+                                  <th>Nama Cafe</th>
+                                  <th>Titik</th>
+                                  <th>Alamat</th>
+                                  <th>Nomor HP</th>
+                              </tr>
+                              </thead>
+                              <tbody>
+
+                              @foreach($spots as $no => $spot)
+                              <tr>
+                                  <td>{{ $no+1 }}</td>
+                                  <td>{{ $spot->nama_cafe }}</td>
+                                  <td>{{ $spot->titik }}</td>
+                                  <td>{{ $spot->alamat }}</td>
+                                  <td>{{ $spot->no_hp }}</td>
+                              </tr>
+                              @endforeach
+                              </tbody>
+                          </table>
+                        </div>
+                      </div>
+                  </section>
+              </div>
+          </div>
         </div>
     </section>
 

@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('web');
-});
+Route::get('/', 'WebController@index');
 
 // buat logout
 Route::get('logout', function() {
