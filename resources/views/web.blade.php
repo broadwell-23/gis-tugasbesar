@@ -43,6 +43,11 @@
         <script src="js/vendor/jquery-1.11.3.min.js"></script>
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 
+        <!-- Data Tables css -->
+        <link href='//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+        <link href='https://cdn.datatables.net/1.10.13/css/dataTables.bootstrap.min.css' rel='stylesheet' type='text/css'>
+
+
         <!-- IE9 Scripts -->
         <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -363,9 +368,15 @@
 
     <!-- JS Files -->
     <!-- Data Tables JS -->
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('#example').DataTable();
+      } );
+    </script>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.12.4.js"></script>
     <script type="text/javascript" src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
     <script type="text/javascript" src="https://cdn.datatables.net/1.10.13/js/dataTables.bootstrap.min.js"></script>
+
     <!-- Bootstrap JS -->
     <script src="js/bootstrap.min.js"></script>
     <!-- jQuery Easing -->
