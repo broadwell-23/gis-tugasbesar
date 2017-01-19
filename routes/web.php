@@ -31,3 +31,7 @@ Route::get('/spot', 'SpotController@index');
 Route::post('/spot', 'SpotController@store');
 Route::put('/spot', 'SpotController@update');
 Route::delete('/spot', 'SpotController@destroy');
+
+Route::resource('team', 'TeamController');
+Route::put('/team', 'TeamController@update');
+Route::delete('team', 'TeamController@destroy');

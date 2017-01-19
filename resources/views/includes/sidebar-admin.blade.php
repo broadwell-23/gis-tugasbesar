@@ -15,6 +15,12 @@
                     <span>Titik Wifi</span>
                 </a>
             </li>
+            <li>
+                <a class="" href="team">
+                    <i class="fa fa-map-marker"></i>
+                    <span>Team</span>
+                </a>
+            </li>
         </ul>
         <!-- sidebar menu end-->
     </div>

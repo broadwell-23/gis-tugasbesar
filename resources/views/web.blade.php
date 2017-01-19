@@ -79,7 +79,6 @@
                     <li><a class="page-scroll" href="#about">About</a></li>
                     <li><a class="page-scroll" href="#data">Data</a></li>
                     <li><a class="page-scroll" href="#team">Team</a></li>
-                    <li><a class="page-scroll" href="#contact">Contact Us</a></li>
                 </ul>
               </div>
             </div>
@@ -269,60 +268,6 @@
     </section>
 
     <!-- End Of Our Services -->
-
-    <!-- Contact Us Section -->
-
-    <section class="contact-us-section section-padding" id="contact">
-        <div class="container">
-            <!-- Contact Us Section Title -->
-            <h2 class="section-title contact-title text-center">Contact Us</h2>
-            <p class="sub-title contact-subtitle text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, magna aliqua.Ut enim <br> consectetur adipisicing  ad minim veniam</p>
-
-            <div class="row">
-                <div class="col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 col-sm-10 col-sm-offset-1 col-xs-12">
-                    <div class="contact-form-section mt-50">
-                        <form method="POST" action="" id="contactForm" name="contact-form" role="form">
-                            <div class="row">
-                                <div class="col-sm-5 col-md-4">
-                                    <!-- Name Field -->
-                                    <div class="form-group contact-form-icon">
-                                      <label class="sr-only">Name</label>
-                                      <i class="fa fa-user"></i>
-                                      <input type="text" placeholder="Name" id="name" class="form-control" name="name" required>
-                                    </div>
-                                    <!-- Email Field -->
-                                    <div class="form-group contact-form-icon">
-                                      <label for="email" class="sr-only">Email</label>
-                                      <i class="fa fa-envelope"></i>
-                                      <input type="email" placeholder="Email" id="email" class="form-control" name="email" required>
-                                    </div>
-                                    <!-- Subject Field -->
-                                    <div class="form-group contact-form-icon">
-                                      <label for="subject" class="sr-only">Subject</label>
-                                      <i class="fa fa-pencil"></i>
-                                      <input type="text" placeholder="Subject" id="subject" class="form-control" name="subject" required>
-                                    </div>
-                                </div>
-                                <div class="col-sm-7 col-md-8">
-                                    <div class="form-group contact-form-icon">
-                                      <label for="message" class="sr-only">Message</label>
-                                      <i class="fa fa-keyboard-o"></i>
-                                      <textarea placeholder="Message" rows="7" id="message" class="form-control" name="message" required></textarea>
-                                    </div>
-                                </div>
-                                <div class="col-sm-5 col-md-4 text-center contact-button-padding">
-                                    <button class="btn-primary btn-contact btn-block" name="submit" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- End Of Contact Us Section -->
-
 
 
     <!-- Google Map Section -->

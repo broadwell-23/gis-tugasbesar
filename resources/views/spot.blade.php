@@ -156,7 +156,7 @@
               </div>
               <div class="modal-body">
 
-                <form action="{{ url('/spot') }}" class="form-horizontal" method="POST">
+                <form action="{{ url('/spot') }}" class="form-horizontal" method="POST" enctype="multipart/form-data">
                     <input type="hidden" name="_method" value="PUT">
                     <input type="hidden" name="_token" value="{{ csrf_token() }}">
                     <input type="hidden" name="id" value="{{ $spot->id }}">
@@ -185,10 +185,17 @@
                           <input name="no_hp" type="text" placeholder="" class="form-control" value="{{ $spot->no_hp }}">
                         </div>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group{{ $errors->has('foto') ? ' has-error' : '' }}">
                         <label class="col-sm-3 col-sm-3 control-label">Foto</label>
                         <div class="col-sm-9">
-                          <input name="foto" type="text" placeholder="" class="form-control" value="{{ $spot->foto }}">
+                          <input name="foto" type="file" class="form-control" accept="image/*">
+                          @if ($errors->has('foto'))
+															<span class="help-block">
+																	<label class="control-label" for="inputError"><i class="fa fa-times-circle-o"></i>
+																			{{ $errors->first('foto') }}
+																	</label>
+															</span>
+													@endif
                         </div>
                     </div>
                     <div class="form-group">
