@@ -93,7 +93,7 @@
               </div>
               <div class="modal-body">
 
-                <form class="form-horizontal" method="POST" action="{{ url('/spot') }}">
+                <form class="form-horizontal" method="POST" action="{{ url('/spot') }}" enctype="multipart/form-data">
                   <input type="hidden" name="_token" value="{{ csrf_token() }}">
 
                     <div class="form-group">
@@ -123,7 +123,7 @@
                     <div class="form-group">
                         <label class="col-sm-3 col-sm-3 control-label">Foto</label>
                         <div class="col-sm-9">
-                          <input name="foto" type="text" placeholder="" class="form-control">
+                          <input name="foto" type="file" placeholder="" class="form-control">
                         </div>
                     </div>
                     <div class="form-group">
@@ -234,7 +234,7 @@
                 </div>
             </form>
           </div>
-          
+
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
     </div><!-- /END modal Hapus -->
