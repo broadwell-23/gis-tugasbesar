@@ -166,7 +166,7 @@
                   <section class="panel">
                       <div class="panel-body">
                         <div class="adv-table">
-                          <table class="display table table-bordered table-striped" id="example">
+                          <table class="table table-bordered table-striped" id="example">
                               <thead>
                               <tr>
                                   <th>No</th>
@@ -362,6 +362,10 @@
 
 
     <!-- JS Files -->
+    <!-- Data Tables JS -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.13/js/dataTables.bootstrap.min.js"></script>
     <!-- Bootstrap JS -->
     <script src="js/bootstrap.min.js"></script>
     <!-- jQuery Easing -->
