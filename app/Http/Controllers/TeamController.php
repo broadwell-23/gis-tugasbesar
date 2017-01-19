@@ -8,19 +8,19 @@ use Image;
 
 class TeamController extends Controller
 {
+    //
     public function __construct()
     {
         $this->middleware('auth');
     }
 
-    public function index(){
-
-    	$teams = Team::all();
-
-    	return view('team', compact('teams'));
+    public function index()
+    {
+        $teams = Team::all();
+        return view('team', compact('teams'));
     }
-    public function update(Request $request){
-
+    public function update(Request $request)
+    {
     	$team = Team::find($request->id);
     	$team->nama = $request->nama;
       $team->nim = $request->nim;
@@ -40,8 +40,8 @@ class TeamController extends Controller
     	return redirect()->action('TeamController@index');
     }
 
-    public function destroy(Request $request){
-
+    public function destroy(Request $request)
+    {
     	Team::find($request->id)->delete();
 
     	return redirect()->action('TeamController@index');
